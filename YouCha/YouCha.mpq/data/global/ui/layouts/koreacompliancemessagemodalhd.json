@@ -1,0 +1,46 @@
+﻿{
+    "type": "KoreaComplianceMessageModal", "name": "KoreaComplianceMessageModal",
+    "fields": {
+        "anchor": { "x": 0.5 },
+        "rect": { "x": -500, "y": 1680, "width": 1000, "height": 150 },
+        "priority": 3000000000, // higher than everything
+        "isDismissable": false,
+    },
+    "children": [
+        {
+            "type": "ClickCatcherWidget", "name": "ClickCatcher",
+            "fields": {
+                "fitToParent": true,
+            }
+        },
+        {
+            "type": "NineTileImageWidget", "name": "Background",
+            "fields": {
+                "rect": { "x": 0, "y": 0, "width": 1000, "height": 150 },
+                "filename": "PANEL/TooltipBorder/TooltipBorder",
+                "backgroundColor": [ 0.0, 0.0, 0.0, 0.8 ],
+                "tileScale": 1.0,
+            }
+        },
+        {
+            "type": "", "name": "",
+            "fields": {
+                "fitToParent": ,
+                "style": {
+                    "fontFace": "",
+                    "fontColor": "",
+                    "pointSize": "",
+                    "options": { "": "", "":  },
+                    "alignment": { "": "", "": "" },
+                },
+            }
+        },
+        {
+            "type": "", "name": "",
+            "fields": {
+                "time": ,
+                "message": "",
+            }
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "HelpPanel",
+  "name": "HelpPanel",
+  "fields": {
+    "priority": 300,
+    "fitToParent": true,
+    "childFormats": []
+  },
+  "children": [
+    {
+      "type": "RectangleWidget",
+      "name": "TransparentBG",
+      "fields": {
+        "fitToScreen": true,
+        "color": [0.0, 0.0, 0.0, 0.0]
+      },
+      "children": [
+        {
+          "type": "ClickCatcherWidget",
+          "name": "catcher",
+          "fields": {
+            "fitToParent": true
+          }
+        }
+      ]
+    },
+    // {
+    //   "type": "Widget",
+    //   "name": "CenterSection",
+    //   "fields": {
+    //     "anchor": { "x": 0.5, "y": 0.5 },
+    //     "rect": { "x": -1300, "y": -150 }
+    //   },
+    //   "children": []
+    // },
+    // Left Anchored Panel
+    {
+      "type": "Widget",
+      "name": "LeftSection",
+      "fields": {
+        "anchor": { "x": 0.5, "y": 0 },
+        // "rect": { "x": 250, "y": 250 }
+        "rect": { "x": -1725, "y": 150, "width": 3450, "height": 1635 }
+      },
+      "children": [
+        // Ally Display
+        {
+          "type": "ImageWidget",
+          "name": "help_recipe",
+          "fields": {
+            "rect": { "x": 0, "y": 0, "scale": 1.5 },
+            "filename": "PANEL/help_recipe"
+          }
+        }
+      ]
+    },
+    // Right Anchored Panel
+    {
+      "type": "Widget",
+      "name": "RightSection",
+      "fields": {
+        "anchor": { "x": 1.0, "y": 1.0 },
+        "rect": { "x": -230, "y": -2000 }
+      },
+      "children": [
+        {
+          "type": "ButtonWidget",
+          "name": "Close",
+          "fields": {
+            "rect": { "x": 95, "y": -100 },
+            "tooltipString": "@strClose",
+            "sound": "cursor_close_window_hd",
+            "onClickMessage": "PanelManager:ClosePanel:HelpPanel",
+            "filename": "PANEL/closebtn_4x"
+          }
+        }
+      ]
+    }
+  ]
+}
