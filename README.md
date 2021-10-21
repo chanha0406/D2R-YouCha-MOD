@@ -14,6 +14,7 @@
 
 ## 설치 방법
 
+![](https://upload3.inven.co.kr/upload/2021/10/21/bbs/i15921516029.png)
 ![](https://upload3.inven.co.kr/upload/2021/10/18/bbs/i15397877334.png)
 
 1. 디아2레저렉션 폴더안에 mods 폴더를 만듬.
