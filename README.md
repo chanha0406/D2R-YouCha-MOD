@@ -18,9 +18,9 @@
 ![](https://upload3.inven.co.kr/upload/2021/10/18/bbs/i15397877334.png)
 
 1. 디아2레저렉션 폴더안에 mods 폴더를 만듬.
-2. mods 폴더에 압축을 품 (디아2/mods/YouCha/YouCha.mpq)
-3. 명령인수줄추가 -mod YouCha -txt (-mod앞 공백 1칸)
-4. 재접속 해야함
+1. mods 폴더에 압축을 품 (디아2/mods/YouCha/YouCha.mpq)
+1. 명령인수줄추가 -mod YouCha -txt (-mod앞 공백 1칸)
+1. 재접속 해야함
 
 [스마트키](https://github.com/chanha0406/D2R-SmartKey.git)
 
@@ -36,7 +36,7 @@
 
 > TooltipFontSize 가 아이템 드랍 폰트 사이즈 입니다.
 
-1. 큐브 스킨
+2. 큐브 스킨
 
 ```
 ./mods/YouCHa/YouCHa.mpq/data/hd/global/ui/controller
@@ -44,17 +44,23 @@
 ./mods/YouCHa/YouCHa.mpq/data/hd/global/ui/panel
 ```
 
-2. 도움말
+3. 도움말
 
 ```
 ./mods/YouCha/YouCha.mpq/data/global/ui/layouts/helppanelhd.json
 
 ./mods/YouCha/YouCha.mpq/data/hd/global/ui/panel/help_recipe.sprite
 
-./mods/YouCha/YouCha.mpq/data/hd/global/ui/panel/help_recipe.sprite
+./mods/YouCha/YouCha.mpq/data/hd/global/ui/panel/help_recipe.lowend.sprite
 ```
 
-3. 폰트 변경
+4. 아이템 옵션
+
+```
+./mods/YouCha/YouCha.mpq/data/local/lng/strings/item-modifiers.json
+```
+
+5. 폰트 변경
 
 ```
 ./mods/YouCHa/YouCHa.mpq/data/hd/ui/fonts/kodia.ttf
@@ -66,13 +72,13 @@
 
 > blizzardglobaltcunicode.ttf - 채팅창 폰트
 
-4. 룬드랍 사운드
+6. 룬드랍 사운드
 
 ```
 ./YouCHa/YouCHa.mpq/data/hd/global/sfx/item/item_rune_hd.flac
 ```
 
-6. 웨이와 지역맵 TC, 룬표시
+7. 웨이와 지역맵 TC, 룬표시
 
 ```
 ./mods/YouCHa/YouCHa.mpq/data/local/lng/strings/levels.json
