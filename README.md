@@ -22,6 +22,8 @@
 3. 명령인수줄추가 -mod YouCha -txt (-mod앞 공백 1칸)
 4. 재접속 해야함
 
+[스마트키](https://github.com/chanha0406/D2R-SmartKey.git)
+
 ## 경로
 
 1. 폰트 사이즈 수정
