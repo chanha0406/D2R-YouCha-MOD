@@ -83,3 +83,11 @@
 ```
 ./mods/YouCHa/YouCHa.mpq/data/local/lng/strings/levels.json
 ```
+
+8. 툴팁
+
+```
+./mods/YouCha\YouCha.mpq\data\local\lng\strings\ui.json
+```
+
+> id 4169, 4170, 4171, 4173
