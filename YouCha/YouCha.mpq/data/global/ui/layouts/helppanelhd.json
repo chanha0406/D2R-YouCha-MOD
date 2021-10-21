@@ -24,26 +24,14 @@
         }
       ]
     },
-    // {
-    //   "type": "Widget",
-    //   "name": "CenterSection",
-    //   "fields": {
-    //     "anchor": { "x": 0.5, "y": 0.5 },
-    //     "rect": { "x": -1300, "y": -150 }
-    //   },
-    //   "children": []
-    // },
-    // Left Anchored Panel
     {
       "type": "Widget",
-      "name": "LeftSection",
+      "name": "CenterSection",
       "fields": {
         "anchor": { "x": 0.5, "y": 0 },
-        // "rect": { "x": 250, "y": 250 }
         "rect": { "x": -1725, "y": 150, "width": 3450, "height": 1635 }
       },
       "children": [
-        // Ally Display
         {
           "type": "ImageWidget",
           "name": "help_recipe",
@@ -53,6 +41,16 @@
           }
         }
       ]
+    },
+    // Left Anchored Panel
+    {
+      "type": "Widget",
+      "name": "LeftSection",
+      "fields": {
+        "anchor": { "x": 0, "y": 0 },
+        "rect": { "x": 250, "y": 250 }
+      },
+      "children": []
     },
     // Right Anchored Panel
     {
