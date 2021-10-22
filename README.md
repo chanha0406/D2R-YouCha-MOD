@@ -2,7 +2,7 @@
 
 ## 적용 화면
 
-![](https://upload3.inven.co.kr/upload/2021/10/21/bbs/i15967579479.png)
+![](https://upload3.inven.co.kr/upload/2021/10/23/bbs/i15572333912.png)
 
 ![](https://upload3.inven.co.kr/upload/2021/10/20/bbs/i15208881150.jpg)
 
