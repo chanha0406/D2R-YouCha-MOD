@@ -29,16 +29,1250 @@
       "name": "CenterSection",
       "fields": {
         "anchor": { "x": 0.5, "y": 0 },
-        "rect": { "x": -1725, "y": 150, "width": 3450, "height": 1635 }
+        "rect": { "x": -1920, "y": 0, "width": 3841, "height": 2161 }
       },
       "children": [
         {
           "type": "ImageWidget",
           "name": "help_recipe",
           "fields": {
-            "rect": { "x": 0, "y": 0, "scale": 1.5 },
+            "rect": { "x": 0, "y": 0, "scale": 1.0 },
             "filename": "PANEL/help_recipe"
           }
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -1800, "y": 325, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordAncientsPledge",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -1800, "y": 371, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordSpiritShield",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -1800, "y": 417, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordRhyme",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -1800, "y": 463, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordSanctuaty",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -1800, "y": 509, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordExile",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -1800, "y": 555, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordPhoenixShield",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -1800, "y": 739, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordLore",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -1800, "y": 785, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordDreamHelm",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 325, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordEdge",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 371, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordHarmony",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 417, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordFaith",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 463, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordLeaf",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 509, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordWhite",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 555, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordHeartoftheOak",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 601, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordInsight",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 647, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordObedience",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 693, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordInfinity",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 739, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordDestruction",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 785, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordPride",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 940, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordSteel",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 986, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordSplitSword",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 1032, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordCrescentMoon",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 1078, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordOath",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 1124, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordKingslayer",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 1170, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordDeath",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 1216, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordCalltoArms",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 1262, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordGrief",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 1308, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordLastWish",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 1354, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordDoom",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": -550, "y": 1400, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordBreathoftheDying",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": 630, "y": 325, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordStealth",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": 630, "y": 371, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordSmoke",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": 630, "y": 417, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordTreachery",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": 630, "y": 463, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordDuress",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": 630, "y": 509, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordStone",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": 630, "y": 555, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordGloom",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": 630, "y": 601, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordPrudence",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": 630, "y": 647, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordFortitude",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": 630, "y": 693, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordChainsofHonor",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextBoxWidget",
+          "fields": {
+            "anchor": { "x": 0.5, "y": 0 },
+            "rect": { "x": 630, "y": 739, "width": 400, "height": 50 }
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@helpRunewordEnigma",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "hudpal",
+          "fields": {
+            "rect": { "x": 1320, "y": 1560 },
+            "filename": "PANEL/btn-chara-pal"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@hudhelpCharaPal",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "hudama",
+          "fields": {
+            "rect": { "x": 1474, "y": 1560 },
+            "filename": "PANEL/btn-chara-ama"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@hudhelpCharaAma",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "hudbaba",
+          "fields": {
+            "rect": { "x": 1628, "y": 1560 },
+            "filename": "PANEL/btn-chara-baba"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@hudhelpCharaBaba",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "hudsoso", //soso
+          "fields": {
+            "rect": { "x": 1782, "y": 1560 },
+            "filename": "PANEL/btn-chara-sor"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@hudhelpCharaSorc",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "hudnec",
+          "fields": {
+            "rect": { "x": 1936, "y": 1560 },
+            "filename": "PANEL/btn-chara-nec"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@hudhelpCharaNec",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "hudassa",
+          "fields": {
+            "rect": { "x": 2090, "y": 1560 },
+            "filename": "PANEL/btn-chara-assa"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@hudhelpCharaAssa",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "huddru",
+          "fields": {
+            "rect": { "x": 2244, "y": 1560 },
+            "filename": "PANEL/btn-chara-dru"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@hudhelpCharaDru",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "huddru2",
+          "fields": {
+            "rect": { "x": 2398, "y": 1560 },
+            "filename": "PANEL/btn-chara-dru2"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@hudhelpCharaDru2",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpRune",
+          "fields": {
+            "rect": { "x": 1336, "y": 1750 },
+            "filename": "PANEL/help_rune"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpRune",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpJewel",
+          "fields": {
+            "rect": { "x": 1472, "y": 1750 },
+            "filename": "PANEL/help_jewel"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpJewel",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpSmall",
+          "fields": {
+            "rect": { "x": 1608, "y": 1750 },
+            "filename": "PANEL/help_small"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpSmall",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpBig",
+          "fields": {
+            "rect": { "x": 1744, "y": 1750 },
+            "filename": "PANEL/help_big"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpBig",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpRing",
+          "fields": {
+            "rect": { "x": 1880, "y": 1750 },
+            "filename": "PANEL/help_ring"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpRing",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpNeck",
+          "fields": {
+            "rect": { "x": 2016, "y": 1750 },
+            "filename": "PANEL/help_neck"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpNeck",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpChest",
+          "fields": {
+            "rect": { "x": 2152, "y": 1750 },
+            "filename": "PANEL/help_chest"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpChest",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpWeapon",
+          "fields": {
+            "rect": { "x": 2288, "y": 1750 },
+            "filename": "PANEL/help_weapon"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpWeapon",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpCirclet",
+          "fields": {
+            "rect": { "x": 2424, "y": 1750 },
+            "filename": "PANEL/help_circlet"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpCirclet",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -71,213 +1305,6 @@
             "onClickMessage": "PanelManager:ClosePanel:HelpPanel",
             "filename": "PANEL/closebtn_4x"
           }
-        },
-        {
-          "type": "ImageWidget",
-          "name": "HelpCraft",
-          "fields": {
-            "rect": { "x": 95, "y": 100 },
-            "filename": "PANEL/help_craft"
-          },
-          "children": [
-            {
-              "type": "FocusableWidget",
-              "name": "Tooltip",
-              "fields": {
-                "fitToParent": true,
-                "tooltipString": "@HelpCraft",
-                "tooltipStyle": {
-                  "fontStyle": {
-                    "options": { "newlineHandling": "standard" }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "ImageWidget",
-          "name": "HelpJewel",
-          "fields": {
-            "rect": { "x": 95, "y": 200 },
-            "filename": "PANEL/help_jewel"
-          },
-          "children": [
-            {
-              "type": "FocusableWidget",
-              "name": "Tooltip",
-              "fields": {
-                "fitToParent": true,
-                "tooltipString": "@HelpJewel",
-                "tooltipStyle": {
-                  "fontStyle": {
-                    "options": { "newlineHandling": "standard" }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "ImageWidget",
-          "name": "HelpSmall",
-          "fields": {
-            "rect": { "x": 95, "y": 300 },
-            "filename": "PANEL/help_small"
-          },
-          "children": [
-            {
-              "type": "FocusableWidget",
-              "name": "Tooltip",
-              "fields": {
-                "fitToParent": true,
-                "tooltipString": "@HelpSmall",
-                "tooltipStyle": {
-                  "fontStyle": {
-                    "options": { "newlineHandling": "standard" }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "ImageWidget",
-          "name": "HelpBig",
-          "fields": {
-            "rect": { "x": 95, "y": 400 },
-            "filename": "PANEL/help_big"
-          },
-          "children": [
-            {
-              "type": "FocusableWidget",
-              "name": "Tooltip",
-              "fields": {
-                "fitToParent": true,
-                "tooltipString": "@HelpBig",
-                "tooltipStyle": {
-                  "fontStyle": {
-                    "options": { "newlineHandling": "standard" }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "ImageWidget",
-          "name": "HelpRing",
-          "fields": {
-            "rect": { "x": 95, "y": 500 },
-            "filename": "PANEL/help_ring"
-          },
-          "children": [
-            {
-              "type": "FocusableWidget",
-              "name": "Tooltip",
-              "fields": {
-                "fitToParent": true,
-                "tooltipString": "@HelpRing",
-                "tooltipStyle": {
-                  "fontStyle": {
-                    "options": { "newlineHandling": "standard" }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "ImageWidget",
-          "name": "HelpNeck",
-          "fields": {
-            "rect": { "x": 95, "y": 600 },
-            "filename": "PANEL/help_neck"
-          },
-          "children": [
-            {
-              "type": "FocusableWidget",
-              "name": "Tooltip",
-              "fields": {
-                "fitToParent": true,
-                "tooltipString": "@HelpNeck",
-                "tooltipStyle": {
-                  "fontStyle": {
-                    "options": { "newlineHandling": "standard" }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "ImageWidget",
-          "name": "HelpChest",
-          "fields": {
-            "rect": { "x": 95, "y": 700 },
-            "filename": "PANEL/help_chest"
-          },
-          "children": [
-            {
-              "type": "FocusableWidget",
-              "name": "Tooltip",
-              "fields": {
-                "fitToParent": true,
-                "tooltipString": "@HelpChest",
-                "tooltipStyle": {
-                  "fontStyle": {
-                    "options": { "newlineHandling": "standard" }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "ImageWidget",
-          "name": "HelpWeapon",
-          "fields": {
-            "rect": { "x": 95, "y": 800 },
-            "filename": "PANEL/help_weapon"
-          },
-          "children": [
-            {
-              "type": "FocusableWidget",
-              "name": "Tooltip",
-              "fields": {
-                "fitToParent": true,
-                "tooltipString": "@HelpWeapon",
-                "tooltipStyle": {
-                  "fontStyle": {
-                    "options": { "newlineHandling": "standard" }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "ImageWidget",
-          "name": "HelpCirclet",
-          "fields": {
-            "rect": { "x": 95, "y": 900 },
-            "filename": "PANEL/help_circlet"
-          },
-          "children": [
-            {
-              "type": "FocusableWidget",
-              "name": "Tooltip",
-              "fields": {
-                "fitToParent": true,
-                "tooltipString": "@HelpCirclet",
-                "tooltipStyle": {
-                  "fontStyle": {
-                    "options": { "newlineHandling": "standard" }
-                  }
-                }
-              }
-            }
-          ]
         }
       ]
     }
