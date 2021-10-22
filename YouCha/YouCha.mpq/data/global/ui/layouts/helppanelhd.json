@@ -71,6 +71,213 @@
             "onClickMessage": "PanelManager:ClosePanel:HelpPanel",
             "filename": "PANEL/closebtn_4x"
           }
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpCraft",
+          "fields": {
+            "rect": { "x": 95, "y": 100 },
+            "filename": "PANEL/help_craft"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpCraft",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpJewel",
+          "fields": {
+            "rect": { "x": 95, "y": 200 },
+            "filename": "PANEL/help_jewel"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpJewel",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpSmall",
+          "fields": {
+            "rect": { "x": 95, "y": 300 },
+            "filename": "PANEL/help_small"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpSmall",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpBig",
+          "fields": {
+            "rect": { "x": 95, "y": 400 },
+            "filename": "PANEL/help_big"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpBig",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpRing",
+          "fields": {
+            "rect": { "x": 95, "y": 500 },
+            "filename": "PANEL/help_ring"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpRing",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpNeck",
+          "fields": {
+            "rect": { "x": 95, "y": 600 },
+            "filename": "PANEL/help_neck"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpNeck",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpChest",
+          "fields": {
+            "rect": { "x": 95, "y": 700 },
+            "filename": "PANEL/help_chest"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpChest",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpWeapon",
+          "fields": {
+            "rect": { "x": 95, "y": 800 },
+            "filename": "PANEL/help_weapon"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpWeapon",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ImageWidget",
+          "name": "HelpCirclet",
+          "fields": {
+            "rect": { "x": 95, "y": 900 },
+            "filename": "PANEL/help_circlet"
+          },
+          "children": [
+            {
+              "type": "FocusableWidget",
+              "name": "Tooltip",
+              "fields": {
+                "fitToParent": true,
+                "tooltipString": "@HelpCirclet",
+                "tooltipStyle": {
+                  "fontStyle": {
+                    "options": { "newlineHandling": "standard" }
+                  }
+                }
+              }
+            }
+          ]
         }
       ]
     }
