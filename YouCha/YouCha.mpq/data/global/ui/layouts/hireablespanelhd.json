@@ -8,7 +8,7 @@
     "summonsUseSecondSet": true,
     "nameAlternationSecondSetY": 0,
     "secondSetPosition": { "x": 0, "y": -140 },
-    "nextIconOffsetSecondSet": { "x": 290 },
+    "nextIconOffsetSecondSet": { "x": 340 },
     "tooltipOffset": { "x": 160, "y": 115 },
     "baseTransparency": 0.65,
     "mercenaryIconTooltipMouseoverDelay": 2000,
@@ -51,7 +51,7 @@
           "type": "HealthBarWidget",
           "name": "Health",
           "fields": {
-            "rect": { "x": 130, "y": 0, "width": 150, "height": 60 },
+            "rect": { "x": 130, "y": 0, "width": 200, "height": 60 },
             "transparency": 0.8,
             "backgroundTransparency": 0.95,
             "warningHealthPercent": 70,
