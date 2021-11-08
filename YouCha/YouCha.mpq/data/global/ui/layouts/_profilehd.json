@@ -63,6 +63,8 @@
   "FontColorTransparent": { "r": 0, "g": 0, "b": 0, "a": 0 },
   "FontColorPartyOrange": { "r": 196, "g": 129, "b": 0, "a": 255 },
   "FontColorPartyGreen": { "r": 79, "g": 194, "b": 56, "a": 255 },
+  "FontColorPurple": { "r": 174, "g": 0, "b": 255, "a": 255 },
+  "FontColorSred": { "r": 209, "g": 66, "b": 66, "a": 255 },
 
   // Text color presets
   "CarouselEnabledColor": "$FontColorLightGold",
@@ -282,6 +284,7 @@
       "alignment": { "h": "center", "v": "center" },
       "options": {
         "pipeCharacterBehavior": "handle",
+        // "pipeCharacterBehavior": "unhandle",
         "newlineHandling": "reversed"
       }
     },
@@ -306,11 +309,16 @@
     "MagicColor": "$FontColorBlue",
     "SetColor": "$FontColorGreen",
     "UniqueColor": "$FontColorGoldYellow",
-    "SocketedColor": "$FontColorGrey",
-    "EtherealColor": "$FontColorGrey",
-    "HealthPotionColor": "$FontColorWhite",
-    "ManaPotionColor": "$FontColorWhite",
-    "RejuvPotionColor": "$FontColorWhite",
+    // "SocketedColor": "$FontColorGrey",
+    "SocketedColor": "$FontColorSred",
+    // "EtherealColor": "$FontColorGrey",
+    "EtherealColor": "$FontColorSred",
+    // "HealthPotionColor": "$FontColorWhite",
+    "HealthPotionColor": "$FontColorRed",
+    // "ManaPotionColor": "$FontColorWhite",
+    "ManaPotionColor": "$FontColorBlue",
+    // "RejuvPotionColor": "$FontColorWhite",
+    "RejuvPotionColor": "$FontColorPurple",
     "GoldColor": "$FontColorWhite",
     "RuneColor": "$FontColorOrange",
     "EventItemsColor": "$FontColorOrange"
