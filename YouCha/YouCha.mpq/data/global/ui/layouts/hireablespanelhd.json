@@ -1,0 +1,64 @@
+{
+  "type": "HireablesPanel",
+  "name": "HireablesPanel",
+  "fields": {
+    "priority": -100,
+    "rect": { "x": 30, "y": 170 },
+    "nextIconOffset": { "y": 140 },
+    "summonsUseSecondSet": true,
+    "nameAlternationSecondSetY": 0,
+    "secondSetPosition": { "x": 0, "y": -140 },
+    "nextIconOffsetSecondSet": { "x": 290 },
+    "tooltipOffset": { "x": 160, "y": 115 },
+    "baseTransparency": 0.65,
+    "mercenaryIconTooltipMouseoverDelay": 2000,
+    "allyPlayerFontColor": "$FontColorGold",
+    "allyNPCFontColor": "$FontColorVeryLightGray"
+  },
+  "children": [
+    {
+      "type": "AbstractImageWidget",
+      "name": "Template",
+      "children": [
+        {
+          "type": "TextBoxWidget",
+          "name": "Name",
+          "fields": {
+            "anchor": { "x": 0, "y": 0 },
+            "rect": { "x": 130, "y": 75 },
+            "style": {
+              "fontFace": "Formal",
+              "fontColor": "$FontColorGold",
+              "pointSize": "$SmallFontSize",
+              "spacing": "$MinimumSpacing",
+              "alignment": { "h": "left" }
+            }
+          }
+        },
+        {
+          "type": "TextBoxWidget",
+          "name": "Counter",
+          "fields": {
+            "rect": { "x": 105, "y": 70 },
+            "style": {
+              "pointSize": "$MediumFontSize",
+              "spacing": "$MinimumSpacing",
+              "alignment": { "h": "right" }
+            }
+          }
+        },
+        {
+          "type": "HealthBarWidget",
+          "name": "Health",
+          "fields": {
+            "rect": { "x": 130, "y": 0, "width": 150, "height": 60 },
+            "transparency": 0.8,
+            "backgroundTransparency": 0.95,
+            "warningHealthPercent": 70,
+            "criticalHealthPercent": 40
+          }
+        }
+      ]
+    }
+  ]
+}
