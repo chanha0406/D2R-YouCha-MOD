@@ -15393,7 +15393,7 @@
     "esES": "[fs]Lana de alambre",
     "frFR": "[fs]Toison métallique",
     "itIT": "[ms]Vello Metallico",
-    "koKR": "와이어 플리스 [EL.4]ÿc1*ÿc0(3,4)ÿc1*",
+    "koKR": "와이어 플리스 [EL.4]ÿc1*ÿc0(3,4)",
     "plPL": "[nl]Druciane Runo",
     "esMX": "[ms]Vellón hilado",
     "jaJP": "ワイヤー・フリース",
@@ -16560,7 +16560,7 @@
   {
     "id": 20420,
     "Key": "paf",
-    "enUS": "Vortex Shieldÿc1*",
+    "enUS": "Vortex Shieldÿc1*ÿc0(3,4)ÿc9*",
     "zhTW": "渦旋盾",
     "deDE": "[ms]Wirbelschild",
     "esES": "[ms]Escudo vórtice",
@@ -25128,7 +25128,7 @@
   {
     "id": 21779,
     "Key": "pad",
-    "enUS": "Kurast Shieldÿc1*",
+    "enUS": "Kurast Shieldÿc1*ÿc0(3,4)",
     "zhTW": "庫拉斯特盾",
     "deDE": "Kurastschild",
     "esES": "Escudo de Kurast",
