@@ -8,9 +8,9 @@
       { "r": 0, "g": 255, "b": 0, "a": 255 }, // SPRITE_COLOR_GREEN
       "$FontColorBlue", // SPRITE_COLOR_BLUE
       { "r": 199, "g": 179, "b": 119, "a": 255 }, // SPRITE_COLOR_PANEL / FONTCOLOR_GOLD
-      { "r": 209, "g": 66, "b": 66, "a": 255 }, // SPRITE_COLOR_GREY->SRED
+      { "r": 255, "g": 255, "b": 255, "a": 255 }, // SPRITE_COLOR_GREY->WHITE
       { "r": 0, "g": 0, "b": 0, "a": 255 }, // SPRITE_COLOR_BLACK
-      { "r": 208, "g": 194, "b": 125, "a": 255 }, // SPRITE_COLOR_BNETGOLD - Unused
+      { "r": 105, "g": 105, "b": 105, "a": 255 }, // SPRITE_COLOR_BNETGOLD - Unused -> GREY
       { "r": 255, "g": 168, "b": 0, "a": 255 }, // SPRITE_COLOR_ORANGE
       { "r": 255, "g": 255, "b": 100, "a": 255 }, // SPRITE_COLOR_YELLOW
       { "r": 0, "g": 128, "b": 0, "a": 255 }, // SPRITE_COLOR_DARKGREEN
