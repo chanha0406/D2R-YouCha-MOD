@@ -319,7 +319,7 @@
     "ManaPotionColor": "$FontColorBlue",
     // "RejuvPotionColor": "$FontColorWhite",
     "RejuvPotionColor": "$FontColorPurple",
-    "GoldColor": "$FontColorWhite",
+    "GoldColor": "$FontColorGray",
     "RuneColor": "$FontColorOrange",
     "EventItemsColor": "$FontColorOrange"
   },
