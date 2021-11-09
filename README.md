@@ -12,6 +12,10 @@
 
 ![](/images/ex5.png?raw=true)
 
+![](/images/ex6.png?raw=true)
+
+![](/images/ex7.png?raw=true)
+
 ## 설치 방법
 
 ![](/images/how1.png?raw=true)
