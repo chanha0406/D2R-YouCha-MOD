@@ -2,20 +2,21 @@
 
 ## 적용 화면
 
-![](https://upload3.inven.co.kr/upload/2021/10/23/bbs/i16499863054.png)
+![](/images/ex1.jpg?raw=true)
 
-![](https://upload3.inven.co.kr/upload/2021/10/20/bbs/i15208881150.jpg)
+![](/images/ex2.jpg?raw=true)
 
-![](https://upload3.inven.co.kr/upload/2021/10/18/bbs/i15118858381.png)
+![](/images/ex3.jpg?raw=true)
 
-![](https://upload3.inven.co.kr/upload/2021/10/18/bbs/i15330278323.png)
+![](/images/ex4.jpg?raw=true)
 
-![](https://upload3.inven.co.kr/upload/2021/10/18/bbs/i15353418155.png)
+![](/images/ex5.png?raw=true)
 
 ## 설치 방법
 
-![](https://upload3.inven.co.kr/upload/2021/10/21/bbs/i15921516029.png)
-![](https://upload3.inven.co.kr/upload/2021/10/18/bbs/i15397877334.png)
+![](/images/how1.png?raw=true)
+
+![](/images/how2.jpg?raw=true)
 
 1. 디아2레저렉션 폴더안에 mods 폴더를 만듬.
 1. mods 폴더에 압축을 품 (디아2/mods/YouCha/YouCha.mpq)
@@ -32,7 +33,7 @@
 ./YouCha.mpq/data/global/ui/layouts/_profilehd.json
 ```
 
-![](https://upload3.inven.co.kr/upload/2021/10/18/bbs/i16113499858.png)
+![](/images/path1.jpg?raw=true)
 
 > TooltipFontSize 가 아이템 드랍 폰트 사이즈 입니다.
 
