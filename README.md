@@ -48,7 +48,7 @@
 
 ![](/images/how1.png?raw=true)
 
-![](/images/how2.jpg?raw=true)
+![](/images/how2.png?raw=true)
 
 1. 디아2레저렉션 폴더안에 mods 폴더를 만듬.
 1. mods 폴더에 압축을 품 (디아2/mods/YouCha/YouCha.mpq)
@@ -66,7 +66,7 @@
 ./YouCha.mpq/data/global/ui/layouts/_profilehd.json
 ```
 
-![](/images/path1.jpg?raw=true)
+![](/images/path1.png?raw=true)
 
 > TooltipFontSize 가 아이템 드랍 폰트 사이즈 입니다.
 
