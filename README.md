@@ -18,6 +18,10 @@
 
 ![](/images/ex8.png?raw=true)
 
+![](/images/ex9.png?raw=true)
+
+![](/images/ex10.png?raw=true)
+
 1. 아이템 이름 및 옵션 강조  
    소켓 O, 에테, 고급 → 흰색  
    소켓 X, 에테 X, 일반, 손상된 → 회색  
